@@ -21,7 +21,7 @@ public class TravelCommand implements CommandExecutor
     { // creates an inventory with no owner, a size of 18, named Travel Menu
         this.inv = Bukkit.createInventory(null, 18, "Travel Menu");
         this.plugin = plugin.getPlugin();
-        this.cm = cm;//
+        this.cm = cm;
     }
 
     @Override
