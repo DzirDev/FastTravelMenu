@@ -22,6 +22,7 @@ public class TravelCommand implements CommandExecutor
         this.inv = Bukkit.createInventory(null, 18, "Travel Menu");
         this.plugin = plugin.getPlugin();
         this.cm = cm;
+        // test comment
     }
 
     @Override
